@@ -1,0 +1,24 @@
+
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+issueTrackerURL="https://github.com/yourusername/LTTP_x_Minecraft/issues"
+[[mods]]
+modId="lttp_x_minecraft"
+version="1.0.0"
+displayName="LTTP x Minecraft"
+updateJSONURL="https://github.com/yourusername/LTTP_x_Minecraft/update.json"
+displayURL="https://github.com/yourusername/LTTP_x_Minecraft"
+logoFile="assets/lttp_x_minecraft/logo.png"
+credits="Developed by Your Name"
+authors="Your Name"
+description='''
+A Minecraft mod inspired by The Legend of Zelda: A Link to the Past dungeons.
+'''
+
+[[dependencies.lttp_x_minecraft]]
+modId="forge"
+mandatory=true
+versionRange="[37,)"
+ordering="NONE"
+side="BOTH"
